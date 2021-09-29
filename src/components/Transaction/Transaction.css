@@ -1,0 +1,54 @@
+.transaction-body {
+  padding: 0 2vw;
+  background: #eee !important;
+  margin-top: 40px;
+}
+
+.transaction-header {
+  font-size: 1.5rem;
+}
+.transaction-content {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: flex-end;
+  border-radius: 10px 10px 0 0;
+  font-size: 1.2rem;
+}
+
+.transaction-content-body {
+  padding-right: 40px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #3880e0;
+}
+
+.transaction-content-body:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.dropDown {
+  width: 15vw;
+  color: #3880e0;
+  font-size: 1.1rem;
+  padding: 10px 20px 10px 10px;
+  border: none;
+  background: #eee !important;
+  text-align: start;
+}
+
+.dropDown:focus {
+  border: none;
+  outline: none;
+}
+
+.dropdown-item {
+  background: white;
+  border: none;
+}
+
+.transaction-details {
+  margin: 10px 20px;
+}

@@ -1,0 +1,53 @@
+.accordion__section {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion {
+  background-color: white;
+  margin-left: 30px;
+  color: #3880e0;
+  cursor: pointer;
+  padding: 18px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  transition: background-color 200ms ease;
+}
+
+.accordion:hover,
+.active {
+  opacity: 0.8;
+}
+
+.accordion__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: left;
+}
+
+.accordion__icon {
+  margin-left: auto;
+  transition: transform 0.6s ease;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.accordion__content {
+  background-color: white;
+  overflow: auto;
+  transition: max-height 200ms ease;
+}
+
+.accordion__text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 18px;
+  margin-left: 30px;
+}

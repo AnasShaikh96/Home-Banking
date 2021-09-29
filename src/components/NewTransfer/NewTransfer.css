@@ -1,0 +1,121 @@
+.transfer-wrap {
+  padding: 30px;
+}
+
+.transfer-head {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.transfer-body {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background: white;
+  border-radius: 5px;
+}
+.transfer-body-heading {
+  color: #585858;
+  font-size: 16pt;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.transfer-card {
+  border: 1px solid #ccc;
+  width: 60%;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 20px;
+  transform: translateY(0);
+  transition: all 200ms;
+}
+.transfer-card:hover {
+  /* background: aqua; */
+  /* opacity: 0.5; */
+  transform: translateY(-10px);
+}
+
+.transfer-child-name {
+  color: #0f82e4;
+  display: block;
+  font-size: 16px;
+
+  padding: 5px 0;
+}
+.transfer-child-number {
+  color: #585858;
+  font-size: 1.1rem;
+  display: block;
+}
+
+.transfer-child-amount {
+  display: block;
+  text-align: end;
+  color: #585858;
+  font-size: 1.5rem;
+  padding-top: 20px;
+}
+
+.transfer-header {
+  color: #0f82e4;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+}
+.icon {
+  border: 1px solid #0f82e4;
+  color: white;
+  background: #0f82e4;
+  border-radius: 50%;
+  margin-left: 15px;
+  padding: 3px;
+  display: block;
+}
+
+.labelAmount {
+  color: #585858;
+  padding: 5px 0;
+  display: block;
+  margin-top: 0px;
+}
+
+.inputAmount,
+.inputDate,
+.inputConcept {
+  padding: 15px 10px;
+  display: block;
+  border: 1px solid #0f82e4;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+.inputAmount {
+  color: black;
+  font-family: bold;
+  font-size: 1rem;
+}
+
+.inputAmount:focus,
+.inputDate:focus,
+.inputConcept:focus {
+  outline: none;
+  border: 1px solid #0f82e1;
+}
+
+.labelRadio {
+  color: #585858;
+  padding-right: 15px;
+}
+.labelDate {
+  margin-top: 30px;
+  display: block;
+  color: #585858;
+  padding: 10px 0;
+}
+.labelConcept {
+  display: block;
+  color: #585858;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}

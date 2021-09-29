@@ -1,0 +1,38 @@
+.account-body {
+  padding: 0 2vw;
+  padding-top: 3vw;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.account-content {
+  display: block;
+}
+
+.transfer-button {
+  padding: 10px 40px;
+  font-size: 14px;
+  color: white;
+  background: #24a0ed;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.dropdown {
+  margin-left: 30px;
+  color: #3880e0;
+  font-size: 1.1rem;
+  padding: 10px 20px 10px 10px;
+  border: none;
+  background: #eee !important;
+  text-align: start;
+}
+
+.dropdown:focus {
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,18 @@
+.details-table {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background: white;
+}
+
+.details-table-body {
+  padding-left: 20px;
+  font-size: 1.2rem;
+}
+.details-table-body p {
+  color: #3880e0;
+}
+
+.details-table-item {
+  padding: 20px 20px 20px 0;
+  font-size: 1.1rem;
+}
